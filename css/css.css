@@ -1,0 +1,39 @@
+body{background-color: rgb(24, 23, 23);}
+
+    .bordes {
+    border: 2px solid #000;}
+    .banner-info { position:relative}
+     #card2{border: 2px solid #000;}
+     #titulocard {color: white;
+        display: flex;
+        justify-content: center;
+       font: bold;}
+
+      .col-md-6 { align-items: center; color: white;}
+
+      p {font-family: 'Yantramanav', sans-serif;}
+
+      #textoportada { 
+        color: rgb(0, 0, 0);
+        background-color: rgba(245, 245, 220, 0.5); 
+        position: absolute; 
+        padding: 30px;
+        top: calc(55% - 20px);
+        left: calc(50% + 30px); 
+        transform: translate(-20%, -20%);
+        text-align: center; 
+      }
+    #botones {
+       text-align: center;}
+       .botones button {
+        display: inline-block;}
+h2 {font-family: 'Sriracha', cursive;  font: bolder;}
+    h3 { font-family: 'Yantramanav', sans-serif;
+      font-family: 'Cabin', sans-serif;
+       color: rgb(207, 202, 202);}
+
+#formulario {padding-top: 75px;}
+    .form-label {color: whitesmoke; 
+    }
+footer {margin-top: 50px;}
+
