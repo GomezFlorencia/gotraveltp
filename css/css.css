@@ -12,22 +12,23 @@ body{background-color: rgb(24, 23, 23);}
       .col-md-6 { align-items: center; color: white;}
 
       p {font-family: 'Yantramanav', sans-serif;}
-
-      #textoportada { 
+      #textoPortada { width: 400px;
         color: rgb(0, 0, 0);
-        background-color: rgba(245, 245, 220, 0.5); 
-        position: absolute; 
+        font-weight: bolder;
+        background-color: rgba(128, 128, 128, 0.5);
         padding: 30px;
-        top: calc(55% - 20px);
-        left: calc(50% + 30px); 
-        transform: translate(-20%, -20%);
-        text-align: center; 
+        top: 180px;
+        margin-left: 690px;
+        transform: translate(20%, -20%);
+        position: absolute;
+        
+        
       }
     #botones {
        text-align: center;}
        .botones button {
         display: inline-block;}
-h2 {font-family: 'Sriracha', cursive;  font: bolder;}
+h2 {font-family: 'Sriracha', cursive;  font: bolde;}
     h3 { font-family: 'Yantramanav', sans-serif;
       font-family: 'Cabin', sans-serif;
        color: rgb(207, 202, 202);}
@@ -37,3 +38,15 @@ h2 {font-family: 'Sriracha', cursive;  font: bolder;}
     }
 footer {margin-top: 50px;}
 
+ .card-group{display: flex;
+justify-content: center;
+}
+.card1{border: solid;
+     border-color: green;
+    text-align: center;}
+  .card2{border: solid;
+      border-color: blue;
+     text-align: center;}
+  .card3{border: solid;
+      border-color: red;
+     text-align: center;}

@@ -1,0 +1,29 @@
+body {background-color: white;
+color: black}
+
+h1 {font-weight: 900; text-align: center;}
+h5 {text-align: center;}
+.card-group{ margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    }
+    .card1{ padding-top: 15px;
+        border: solid;
+         border-color: green;
+        text-align: center;}
+      .card2{
+        padding-top: 15px;
+        border: solid;
+          border-color: blue;
+         text-align: center;}
+      .card3{padding-top: 15px;
+        border: solid;
+          border-color: red;
+         text-align: center;}
+#resultado  { border-style: solid ; border-color: blue;
+   background-color: #cfe2f3; text-align: center;  width: 300px; margin: 0 auto; height: 40px;}
+ .col-md-6{padding-top: 15px};
+
+ #botonesR{padding-top: 30px};
+
